@@ -1,0 +1,157 @@
+/********************************************************Navbar Css******************************************************/
+
+header {
+  background-color: rgb(192, 252, 153);
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  /* width: 100%; */
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  gap: 40px;
+  font-size: larger;
+  font-weight: 400;
+}
+
+.nav-item {
+  color: green;
+  text-decoration: solid;
+  font-weight: 400;
+}
+
+.nav-item:hover {
+  background-color: green;
+  color: white;
+  padding: 13px;
+  border-radius: 7px;
+}
+
+#heading {
+  font-style: italic;
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: rgb(247, 118, 12);
+}
+
+#logo {
+  height: 100%;
+  width: 70px;
+}
+
+.container1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn {
+  font-weight: 500;
+  border-radius: 15px;
+  height: 70px;
+  padding: 20px;
+}
+.btn1 {
+  border-radius: 10px;
+  padding: 12px;
+  text-decoration: none;
+}
+/********************************************************Navbar Css End******************************************************/
+
+/***********************************************************Carousel Css*****************************************************************/
+.carousel-inner {
+  height: 600px;
+  width: 100%;
+}
+
+.carousel-item img {
+  height: 600px;
+  width: 650px;
+  opacity: 0.8;
+}
+
+.carousel-caption {
+  color: #fff;
+  position: absolute;
+  z-index: 12;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.carousel-caption h1 {
+  font-size: 50px;
+}
+/***********************************************************Carousel Css End***********************************************************/
+
+/* card hr ************************************************/
+.hr1 {
+  border-width: 5px;
+}
+.row > * {
+  padding: 0;
+}
+
+/* .design {
+  padding: 25px;
+  display: flex;
+
+  height: fit-content;
+  align-items: center;
+}
+.btn2 {
+  padding: 12px;
+
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+} */
+/* span.btn2.btn-success {
+  display: grid;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+  text-align: center;
+} */
+
+/* Footer *****************************************************************/ /****************************/
+#container-footer {
+  background-color: rgb(144, 252, 129);
+}
+
+/* card css */
+.design {
+  padding: 25px;
+  display: flex;
+  /* gap: px; */
+  height: fit-content;
+  align-items: center;
+}
+.btn2 {
+  padding: 5px;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  display: grid;
+}
+
+.card-title {
+  /* margin-bottom: 0.5rem; */
+  text-align: center;
+  padding-bottom: 5px;
+  font-weight: 500;
+}
+
+#row1 {
+  padding-left: 7px;
+  display: flex;
+  gap: 10px;
+  margin-left: 0;
+}
